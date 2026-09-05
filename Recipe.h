@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 
 class Recipe
 {
@@ -7,5 +8,7 @@ class Recipe
 	std::vector<std::string> recipeSteps;
 public:
 	Recipe();
+	std::string GetRecipeName();
+
 };
 

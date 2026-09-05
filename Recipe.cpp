@@ -1,8 +1,13 @@
 #include "Recipe.h"
-#include <string>
+
 #include <vector>
 
 Recipe::Recipe()
 {
 	recipeName = "";
 }
+
+//std::string Recipe::GetRecipeName()
+//{
+//	return recipeName;
+//}
