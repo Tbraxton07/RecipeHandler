@@ -7,7 +7,8 @@ Recipe::Recipe()
 	recipeName = "";
 }
 
-//std::string Recipe::GetRecipeName()
-//{
-//	return recipeName;
-//}
+std::string Recipe::GetRecipeName()
+{
+	return recipeName;
+}
+
