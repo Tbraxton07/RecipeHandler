@@ -17,3 +17,8 @@ std::vector<std::string> Recipe::GetRecipeIngredients()
 	return recipeIngredients;
 }
 
+std::vector<std::string> Recipe::GetRecipeSteps()
+{
+	return recipeSteps;
+}
+
