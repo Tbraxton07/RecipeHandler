@@ -10,6 +10,7 @@ class Recipe
 public:
 	Recipe();
 	std::string GetRecipeName();
+	std::vector<std::string> GetRecipeIngredients();
 
 };
 
