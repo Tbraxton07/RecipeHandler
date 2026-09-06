@@ -11,6 +11,7 @@ public:
 	Recipe();
 	std::string GetRecipeName();
 	std::vector<std::string> GetRecipeIngredients();
+	std::vector<std::string> GetRecipeSteps();
 
 };
 
